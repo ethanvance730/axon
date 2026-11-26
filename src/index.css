@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+/* Agency Brand Fonts */
+.font-agency-display {
+  font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+}
+.font-agency-body {
+  font-family: "DM Sans", system-ui, sans-serif;
+}
+.font-agency-mono {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+/* Project 01: Northfield Dental Studio */
+.font-dental-display {
+  font-family: "Cormorant Garamond", Georgia, serif;
+}
+.font-dental-body {
+  font-family: "Public Sans", system-ui, sans-serif;
+}
+
+/* Project 02: Maison Aesthetics */
+.font-maison-display {
+  font-family: "Bodoni Moda", Georgia, serif;
+}
+.font-maison-body {
+  font-family: "Manrope", system-ui, sans-serif;
+}
+
+/* Project 03: Willowbrook Family Medical Centre */
+.font-medical-display {
+  font-family: "Outfit", system-ui, sans-serif;
+}
+.font-medical-body {
+  font-family: "Source Sans 3", system-ui, sans-serif;
+}
+
+/* Project 04: Apex Sports Physiotherapy */
+.font-apex-display {
+  font-family: "Barlow Condensed", system-ui, sans-serif;
+}
+.font-apex-body {
+  font-family: "DM Sans", system-ui, sans-serif;
+}
