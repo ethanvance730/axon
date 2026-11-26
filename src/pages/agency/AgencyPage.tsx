@@ -741,10 +741,10 @@ export function AgencyPage() {
                   <div className="flex items-center gap-2.5">
                     <Mail className="w-4 h-4 text-neutral-500" aria-hidden="true" />
                     <a
-                      href="mailto:hello@axondigital.co.uk"
+                      href="mailto:contact@mustafaahsan.com"
                       className="font-medium text-[#111111] hover:underline underline-offset-4"
                     >
-                      hello@axondigital.co.uk
+                      contact@mustafaahsan.com
                     </a>
                   </div>
                   <p className="text-xs text-neutral-500">
@@ -915,10 +915,10 @@ export function AgencyPage() {
                     <p className="text-xs text-neutral-700 leading-relaxed">
                       Your project brief is ready. Click below to send it directly to Axon Digital via WhatsApp (you will review and press Send in WhatsApp), or email us at{' '}
                       <a
-                        href="mailto:hello@axondigital.co.uk"
+                        href="mailto:contact@mustafaahsan.com"
                         className="underline font-medium text-[#111111]"
                       >
-                        hello@axondigital.co.uk
+                        contact@mustafaahsan.com
                       </a>
                       .
                     </p>
@@ -1039,10 +1039,10 @@ export function AgencyPage() {
               <ul className="space-y-2 text-sm">
                 <li>
                   <a
-                    href="mailto:hello@axondigital.co.uk"
+                    href="mailto:contact@mustafaahsan.com"
                     className="hover:text-white transition-colors"
                   >
-                    hello@axondigital.co.uk
+                    contact@mustafaahsan.com
                   </a>
                 </li>
                 <li>
